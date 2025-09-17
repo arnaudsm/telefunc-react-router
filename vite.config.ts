@@ -6,4 +6,8 @@ import { telefunc } from "telefunc/vite";
 
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths(), telefunc()],
+  // @ts-ignore
+  vitePluginServerEntry: {
+    disableAutoImport: true,
+  },
 });
