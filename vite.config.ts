@@ -9,5 +9,6 @@ export default defineConfig({
   // @ts-ignore
   vitePluginServerEntry: {
     disableAutoImport: true,
+    disableServerEntryEmit: true
   },
 });
