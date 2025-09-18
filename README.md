@@ -1,6 +1,6 @@
 # React Router + Telefunc
 
-Warning : dev mode works, but builds still fail at the moment.
+A template for setting up Telefunc on React-Router.
 
 ## Getting Started
 
@@ -28,4 +28,6 @@ Create a production build:
 
 ```bash
 npm run build
+npm run start
 ```
+
