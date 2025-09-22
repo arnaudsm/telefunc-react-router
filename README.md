@@ -4,7 +4,6 @@ A template for setting up [Telefunc](https://github.com/brillout/telefunc) on Re
 
 Telefunc introduces Remote Functions instead of APIs. Streamlining backend interactions significantly.
 
-
 ## Getting Started
 
 ```bash
@@ -16,5 +15,7 @@ npm run dev # Start the development server with HMR
 npm run build # Build for production
 npm run start # Start the production build
 ```
+
+Note that improved support is [about to be merged in React Router](https://github.com/remix-run/react-router/pull/14351).
 
 Special thanks to @brillout for creating [Telefunc](https://github.com/brillout/telefunc) and troubleshooting the build issues.
